@@ -1,0 +1,2422 @@
+[
+  {
+    "collection": [
+      {
+        "id": "684ded90-3ef9-4151-827a-518ed8f9899b",
+        "name": "Classics",
+        "is_public": false,
+        "created_at": "2023-08-25T18:29:51.890Z",
+        "updated_at": "2023-08-25T08:04:59.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b10cf7a7-fa5e-427c-9c77-48d9207f6493",
+        "name": "Bestsellers",
+        "is_public": true,
+        "created_at": "2023-08-26T03:12:28.632Z",
+        "updated_at": "2023-08-25T22:50:19.544Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caf06e4c-f996-42c9-8fb3-07a41a19f802",
+        "name": "Mystery & Thriller",
+        "is_public": false,
+        "created_at": "2023-08-25T06:31:16.201Z",
+        "updated_at": "2023-08-25T15:05:55.111Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4600dde-cc61-4fbe-a30b-78f2c3e393de",
+        "name": "Fantasy",
+        "is_public": true,
+        "created_at": "2023-08-26T05:58:51.902Z",
+        "updated_at": "2023-08-26T03:34:12.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e1ad9a-84c9-464b-a94a-c76f0afc1453",
+        "name": "Romance",
+        "is_public": true,
+        "created_at": "2023-08-25T11:00:19.522Z",
+        "updated_at": "2023-08-25T09:58:58.125Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "0a6935e4-1c85-4991-89f2-1112e37060e3",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T15:11:32.707Z",
+        "isbn": "9780142437238",
+        "genre": "Fiction",
+        "created_at": "2023-08-25T06:30:27.458Z",
+        "updated_at": "2023-08-25T23:54:57.745Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "9503cb18-71a3-4a48-b7c6-2caa8e3fc529",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-25T17:34:54.013Z",
+        "isbn": "9780061120084",
+        "genre": "Literary",
+        "created_at": "2023-08-26T03:59:17.127Z",
+        "updated_at": "2023-08-25T11:10:47.039Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "e61eb5dd-49ff-4f1c-a0a5-345366f641cb",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T11:58:02.885Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T23:14:15.382Z",
+        "updated_at": "2023-08-25T18:29:04.052Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "c214d47c-05f7-42fa-94ca-669f7b7e561a",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-26T03:55:22.293Z",
+        "isbn": "9780141439563",
+        "genre": "Romantic",
+        "created_at": "2023-08-26T05:37:58.495Z",
+        "updated_at": "2023-08-25T06:30:44.942Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "e29fe3b3-c0d5-41a9-b925-53717d139e4c",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T11:29:54.683Z",
+        "isbn": "9780590353427",
+        "genre": "Fantasy",
+        "created_at": "2023-08-25T15:11:19.662Z",
+        "updated_at": "2023-08-26T01:32:29.429Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "f287ed04-876b-4507-8926-33c1a23bc85f",
+        "content": "I absolutely loved this book!",
+        "rating": 56871,
+        "created_at": "2023-08-25T21:04:14.737Z",
+        "updated_at": "2023-08-25T15:38:51.955Z",
+        "book_id": "0a6935e4-1c85-4991-89f2-1112e37060e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1becc2f9-2daa-4456-bc8d-dab41553703c",
+        "content": "Highly recommended for all readers",
+        "rating": 4849,
+        "created_at": "2023-08-26T06:17:57.524Z",
+        "updated_at": "2023-08-25T21:46:43.932Z",
+        "book_id": "9503cb18-71a3-4a48-b7c6-2caa8e3fc529",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89370b1d-b389-468d-b174-db89b0306f3a",
+        "content": "A thought-provoking and gripping story",
+        "rating": 65365,
+        "created_at": "2023-08-25T23:39:14.762Z",
+        "updated_at": "2023-08-26T00:48:18.094Z",
+        "book_id": "e29fe3b3-c0d5-41a9-b925-53717d139e4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "622e2504-7e58-4cbf-b591-c01ff364c33f",
+        "content": "The characters are well-developed and relatable",
+        "rating": 22546,
+        "created_at": "2023-08-26T05:11:15.714Z",
+        "updated_at": "2023-08-25T10:26:04.450Z",
+        "book_id": "0a6935e4-1c85-4991-89f2-1112e37060e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d3b3769-7584-4a52-9344-54adcb21fae0",
+        "content": "Couldn't put it down until I finished",
+        "rating": 33503,
+        "created_at": "2023-08-26T05:58:14.577Z",
+        "updated_at": "2023-08-25T21:42:40.138Z",
+        "book_id": "e61eb5dd-49ff-4f1c-a0a5-345366f641cb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "2c5c7e36-38dd-48f3-9866-95630f19f1dc",
+        "topic": "Favorite book endings",
+        "is_closed": false,
+        "created_at": "2023-08-25T12:15:31.752Z",
+        "updated_at": "2023-08-25T19:11:46.421Z",
+        "book_id": "9503cb18-71a3-4a48-b7c6-2caa8e3fc529",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4a67f8c-d46b-4c7e-91af-aa62cdb12dcb",
+        "topic": "Character analysis: Jane Eyre",
+        "is_closed": false,
+        "created_at": "2023-08-25T23:22:37.628Z",
+        "updated_at": "2023-08-26T04:15:55.080Z",
+        "book_id": "c214d47c-05f7-42fa-94ca-669f7b7e561a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68663275-234e-49ea-804c-879b057c2730",
+        "topic": "Book recommendations for summer",
+        "is_closed": true,
+        "created_at": "2023-08-25T08:10:03.997Z",
+        "updated_at": "2023-08-26T03:04:16.567Z",
+        "book_id": "0a6935e4-1c85-4991-89f2-1112e37060e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff03e86c-f047-414b-a042-8316b8de2d7e",
+        "topic": "Predictions for the next book in the series",
+        "is_closed": true,
+        "created_at": "2023-08-25T11:40:34.665Z",
+        "updated_at": "2023-08-26T01:07:39.569Z",
+        "book_id": "e29fe3b3-c0d5-41a9-b925-53717d139e4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1f0f00d-d7bd-4038-8603-f97ea975a379",
+        "topic": "Exploring symbolism in literature",
+        "is_closed": true,
+        "created_at": "2023-08-25T06:49:29.564Z",
+        "updated_at": "2023-08-25T16:27:27.201Z",
+        "book_id": "c214d47c-05f7-42fa-94ca-669f7b7e561a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2d9b352-e049-4a4e-897a-31a22e18f187",
+        "email": "Leanne.Marquardt@hotmail.com",
+        "firstName": "Jovan",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39359209",
+        "tenantId": null
+      },
+      {
+        "reference": "452dec52-5741-4b42-b4f4-471605814359",
+        "email": "Courtney4@hotmail.com",
+        "firstName": "Kiara",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97700532",
+        "tenantId": null
+      },
+      {
+        "reference": "ea64be0f-9970-4f77-b73e-fceb6856eb31",
+        "email": "Elian_Hirthe58@hotmail.com",
+        "firstName": "Maryjane",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30569010",
+        "tenantId": null
+      },
+      {
+        "reference": "5bd68f05-84c8-4023-95f6-41071aa32184",
+        "email": "Nicole92@yahoo.com",
+        "firstName": "Elmore",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8458db12-ee20-4f72-95a4-3905b3cf4594",
+        "email": "Otho.Schuppe@yahoo.com",
+        "firstName": "Charley",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78408856",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "d8f795ac-bb0e-467a-bad5-1565abc83f4a",
+        "name": "Classics",
+        "is_public": false,
+        "created_at": "2023-08-25T22:55:48.413Z",
+        "updated_at": "2023-08-26T00:29:36.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73695694-75e0-4e75-99e3-d3dc9c71fb20",
+        "name": "Bestsellers",
+        "is_public": true,
+        "created_at": "2023-08-25T12:38:27.313Z",
+        "updated_at": "2023-08-26T01:16:51.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68219dce-9a63-475e-9bbf-1e383ffffd6c",
+        "name": "Fantasy",
+        "is_public": true,
+        "created_at": "2023-08-25T20:16:22.644Z",
+        "updated_at": "2023-08-25T15:41:15.995Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e63cfdde-141c-4e66-9ca0-8d00a4dce1c4",
+        "name": "Mystery",
+        "is_public": false,
+        "created_at": "2023-08-25T19:24:56.826Z",
+        "updated_at": "2023-08-26T03:18:36.122Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b8d4134-0008-405f-a603-dc3cdb3b57a6",
+        "name": "Biographies",
+        "is_public": true,
+        "created_at": "2023-08-25T16:27:05.444Z",
+        "updated_at": "2023-08-25T17:00:00.091Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "626f47f3-e61a-4b52-81c6-e192226a030a",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-26T00:48:33.492Z",
+        "isbn": "9780141182636",
+        "genre": "Classic",
+        "created_at": "2023-08-26T03:17:30.115Z",
+        "updated_at": "2023-08-25T18:16:26.767Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "45b16f87-e313-43a5-8ea0-262e7314535d",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-26T05:04:01.403Z",
+        "isbn": "9780061120084",
+        "genre": "Fiction",
+        "created_at": "2023-08-25T08:35:12.543Z",
+        "updated_at": "2023-08-26T04:00:20.148Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "d87631b7-d395-49e1-922c-8a9857706fab",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-25T15:14:10.360Z",
+        "isbn": "9780141439518",
+        "genre": "Romance",
+        "created_at": "2023-08-25T09:32:56.506Z",
+        "updated_at": "2023-08-25T13:20:04.831Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "ca39ab1d-15db-45ce-90e7-61d371500d61",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T17:55:18.075Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T06:40:53.895Z",
+        "updated_at": "2023-08-25T13:45:52.018Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "f8076f4c-5099-45f6-a411-ec45fe16c753",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "published_date": "2023-08-25T21:55:19.036Z",
+        "isbn": "9780316769174",
+        "genre": "Coming-of-age",
+        "created_at": "2023-08-25T16:30:28.559Z",
+        "updated_at": "2023-08-25T07:30:06.468Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "9d601881-9298-4ee0-8684-c7ce1decd800",
+        "content": "I loved this book!",
+        "rating": 56658,
+        "created_at": "2023-08-25T15:10:29.681Z",
+        "updated_at": "2023-08-26T01:45:47.055Z",
+        "book_id": "ca39ab1d-15db-45ce-90e7-61d371500d61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7f89b06-24b7-4afd-a53e-a6917c72714b",
+        "content": "Highly recommended",
+        "rating": 66324,
+        "created_at": "2023-08-25T16:38:35.868Z",
+        "updated_at": "2023-08-25T08:03:24.314Z",
+        "book_id": "626f47f3-e61a-4b52-81c6-e192226a030a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36a6c29e-2c13-4143-8e10-34cff1c7290c",
+        "content": "A must-read",
+        "rating": 67723,
+        "created_at": "2023-08-25T09:53:27.418Z",
+        "updated_at": "2023-08-26T03:49:04.490Z",
+        "book_id": "f8076f4c-5099-45f6-a411-ec45fe16c753",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c9204bc-1257-4145-8114-bb4258de8b9e",
+        "content": "Captivating storyline",
+        "rating": 84222,
+        "created_at": "2023-08-25T06:45:11.639Z",
+        "updated_at": "2023-08-25T12:38:50.657Z",
+        "book_id": "d87631b7-d395-49e1-922c-8a9857706fab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ad3e51-8acc-4852-a545-3961bb1cbd75",
+        "content": "Couldn't put it down",
+        "rating": 14687,
+        "created_at": "2023-08-25T22:00:58.057Z",
+        "updated_at": "2023-08-25T19:08:14.433Z",
+        "book_id": "45b16f87-e313-43a5-8ea0-262e7314535d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "487cc5e5-9f6c-404c-950f-245706b2f999",
+        "topic": "Favorite characters",
+        "is_closed": false,
+        "created_at": "2023-08-26T03:41:07.674Z",
+        "updated_at": "2023-08-25T18:49:34.450Z",
+        "book_id": "f8076f4c-5099-45f6-a411-ec45fe16c753",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "692c216f-c3c6-443f-9bee-df2643894ea0",
+        "topic": "Plot twists",
+        "is_closed": true,
+        "created_at": "2023-08-25T10:37:02.491Z",
+        "updated_at": "2023-08-25T12:31:13.214Z",
+        "book_id": "d87631b7-d395-49e1-922c-8a9857706fab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4f9fc73-2bf4-483b-a240-67791682ad39",
+        "topic": "Book recommendations",
+        "is_closed": false,
+        "created_at": "2023-08-25T20:23:18.005Z",
+        "updated_at": "2023-08-25T20:28:38.632Z",
+        "book_id": "626f47f3-e61a-4b52-81c6-e192226a030a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c18ad97-1b44-4bd3-8d2e-49de021ea8e3",
+        "topic": "Thought-provoking themes",
+        "is_closed": true,
+        "created_at": "2023-08-26T05:58:10.723Z",
+        "updated_at": "2023-08-25T09:44:29.550Z",
+        "book_id": "ca39ab1d-15db-45ce-90e7-61d371500d61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e27bc161-c28d-44cb-91f0-5d6832d7544e",
+        "topic": "Unanswered questions",
+        "is_closed": true,
+        "created_at": "2023-08-25T22:19:11.996Z",
+        "updated_at": "2023-08-25T22:55:45.026Z",
+        "book_id": "f8076f4c-5099-45f6-a411-ec45fe16c753",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c1a01700-acb8-4af0-a6af-1f32c464395a",
+        "email": "Verla_Williamson49@gmail.com",
+        "firstName": "Flossie",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1019.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9904259a-1255-469c-be37-e62d8d50c5b5",
+        "email": "Estelle54@hotmail.com",
+        "firstName": "Seth",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/313.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6616b012-6a4c-4307-a33e-d652bfda18ff",
+        "email": "Delphine.Bednar88@gmail.com",
+        "firstName": "Stanton",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6652a2e-a658-440f-89a5-ba0e835a8d20",
+        "email": "Richard7@gmail.com",
+        "firstName": "Piper",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78260924",
+        "tenantId": null
+      },
+      {
+        "reference": "3204c633-1895-477d-a439-61a15e66d3e0",
+        "email": "Cornell4@gmail.com",
+        "firstName": "Lilla",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "d8db3b6a-29d4-46d0-846c-fa68d2011c9d",
+        "name": "Classic Novels",
+        "is_public": false,
+        "created_at": "2023-08-26T03:28:58.517Z",
+        "updated_at": "2023-08-25T18:06:12.311Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e184e5f-dff2-4238-a718-4391a7d0062a",
+        "name": "Science Fiction",
+        "is_public": true,
+        "created_at": "2023-08-25T16:35:17.689Z",
+        "updated_at": "2023-08-25T18:00:29.467Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "602cb592-b6b8-48b9-8764-4858e10722cb",
+        "name": "Thriller",
+        "is_public": true,
+        "created_at": "2023-08-25T09:23:14.825Z",
+        "updated_at": "2023-08-25T11:02:49.386Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09c26d06-807b-4ad1-b3da-29fe78256885",
+        "name": "Biographies",
+        "is_public": false,
+        "created_at": "2023-08-26T01:36:25.379Z",
+        "updated_at": "2023-08-26T03:15:28.549Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "624b9216-0cf0-4ce5-adf2-163df69a3541",
+        "name": "Fantasy",
+        "is_public": true,
+        "created_at": "2023-08-25T06:59:52.577Z",
+        "updated_at": "2023-08-26T01:25:12.083Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "ac068624-cc55-4cda-bcde-02c59b168153",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T09:49:13.668Z",
+        "isbn": "9780141182636",
+        "genre": "Literary Fiction",
+        "created_at": "2023-08-25T15:24:20.117Z",
+        "updated_at": "2023-08-25T08:28:05.224Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "25726191-a5a4-4dcb-8158-2740aed087f5",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-25T16:44:25.159Z",
+        "isbn": "9780061120084",
+        "genre": "Mystery",
+        "created_at": "2023-08-26T03:21:51.179Z",
+        "updated_at": "2023-08-25T15:36:27.309Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "dd481295-e2d0-4356-b532-c5915be754d2",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-25T20:58:01.646Z",
+        "isbn": "9780141439518",
+        "genre": "Romance",
+        "created_at": "2023-08-26T04:58:29.570Z",
+        "updated_at": "2023-08-25T17:41:50.959Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "22ce58e0-b9f1-48d3-b446-aff6339c254d",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T07:02:07.083Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T23:24:12.166Z",
+        "updated_at": "2023-08-25T20:14:55.348Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "b803558c-38a2-4dbf-b05d-fc0dbfbb65ad",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "published_date": "2023-08-25T09:42:50.652Z",
+        "isbn": "9780316769174",
+        "genre": "Coming-of-Age",
+        "created_at": "2023-08-26T02:10:55.425Z",
+        "updated_at": "2023-08-25T12:30:46.464Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "e6e83ea6-ca94-409e-a0f3-21295c537d5f",
+        "content": "I absolutely loved this book!",
+        "rating": 54952,
+        "created_at": "2023-08-26T00:55:45.919Z",
+        "updated_at": "2023-08-25T13:03:10.344Z",
+        "book_id": "dd481295-e2d0-4356-b532-c5915be754d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f1c8938-6470-4701-9492-76d78d530a0c",
+        "content": "Highly recommended for fans of the genre.",
+        "rating": 96545,
+        "created_at": "2023-08-25T10:37:30.345Z",
+        "updated_at": "2023-08-25T09:58:18.751Z",
+        "book_id": "dd481295-e2d0-4356-b532-c5915be754d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0788a1a2-3119-467d-9edc-04d435268a8c",
+        "content": "A thought-provoking read that stays with you.",
+        "rating": 1101,
+        "created_at": "2023-08-25T23:29:17.918Z",
+        "updated_at": "2023-08-25T23:39:43.809Z",
+        "book_id": "b803558c-38a2-4dbf-b05d-fc0dbfbb65ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bb0d307-ac15-4bce-ba22-01fcc529267d",
+        "content": "The plot twists kept me on the edge of my seat.",
+        "rating": 72497,
+        "created_at": "2023-08-26T06:05:10.042Z",
+        "updated_at": "2023-08-25T13:33:16.937Z",
+        "book_id": "dd481295-e2d0-4356-b532-c5915be754d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f98f29-8c47-44a9-b4b5-daa684f0a59c",
+        "content": "An engaging and well-written story.",
+        "rating": 88241,
+        "created_at": "2023-08-25T23:18:06.409Z",
+        "updated_at": "2023-08-25T07:49:24.510Z",
+        "book_id": "22ce58e0-b9f1-48d3-b446-aff6339c254d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "59691b69-7907-4f22-a4c4-25f1f4ad5df7",
+        "topic": "Favorite characters in the book",
+        "is_closed": false,
+        "created_at": "2023-08-25T20:01:49.989Z",
+        "updated_at": "2023-08-25T06:38:43.048Z",
+        "book_id": "b803558c-38a2-4dbf-b05d-fc0dbfbb65ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b871a82f-e1ce-4940-8fdf-698d79106c19",
+        "topic": "Plot twists and surprises",
+        "is_closed": false,
+        "created_at": "2023-08-25T20:38:16.333Z",
+        "updated_at": "2023-08-25T13:50:49.232Z",
+        "book_id": "dd481295-e2d0-4356-b532-c5915be754d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7b41b77-b290-4cfc-847e-01d0a0e8acc4",
+        "topic": "Symbolism and deeper meanings",
+        "is_closed": false,
+        "created_at": "2023-08-26T00:22:28.944Z",
+        "updated_at": "2023-08-25T10:43:17.923Z",
+        "book_id": "b803558c-38a2-4dbf-b05d-fc0dbfbb65ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dff1fbc0-f698-4d34-b3d2-5cde7971703f",
+        "topic": "Book-to-movie adaptations",
+        "is_closed": true,
+        "created_at": "2023-08-26T03:21:56.665Z",
+        "updated_at": "2023-08-25T15:22:00.038Z",
+        "book_id": "25726191-a5a4-4dcb-8158-2740aed087f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a8ed164-a52a-4685-92d8-8430b485a26a",
+        "topic": "Recommendations for similar books",
+        "is_closed": false,
+        "created_at": "2023-08-25T08:29:53.903Z",
+        "updated_at": "2023-08-25T23:55:36.748Z",
+        "book_id": "b803558c-38a2-4dbf-b05d-fc0dbfbb65ad",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96e6edbb-912b-4e48-8697-d59296eb40f9",
+        "email": "Mercedes.Dare@yahoo.com",
+        "firstName": "Velda",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59305299",
+        "tenantId": null
+      },
+      {
+        "reference": "061c335b-4400-400d-8998-8063d4cc12be",
+        "email": "Samara_Farrell@yahoo.com",
+        "firstName": "Tina",
+        "lastName": "Predovic-Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/232.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3ff0f3e-40be-4a5e-ba28-7e583946f704",
+        "email": "Alba.Monahan@hotmail.com",
+        "firstName": "Hardy",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/19.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d3dbb20-1e83-43d7-8500-65f8bcceccdc",
+        "email": "Derek.Anderson@yahoo.com",
+        "firstName": "Jaqueline",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/346.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "89fd55d4-e609-460b-85ac-088670e39bc0",
+        "email": "Vergie.Douglas@hotmail.com",
+        "firstName": "May",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68476901",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "284f73c7-cce5-4a52-a898-7ba888bd1393",
+        "name": "Classic Novels",
+        "is_public": true,
+        "created_at": "2023-08-25T09:02:52.728Z",
+        "updated_at": "2023-08-26T06:12:28.988Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54ab5ae9-31ef-4260-aff8-7e2a249f0579",
+        "name": "Best Sellers",
+        "is_public": false,
+        "created_at": "2023-08-25T08:40:02.535Z",
+        "updated_at": "2023-08-25T17:33:10.690Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5865174-358d-4163-a426-aa34c42ab68c",
+        "name": "Fantasy Series",
+        "is_public": false,
+        "created_at": "2023-08-26T05:04:39.030Z",
+        "updated_at": "2023-08-25T18:29:14.723Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fc29890-5322-4f91-8c3a-6af1d8d16984",
+        "name": "Historical Fiction",
+        "is_public": true,
+        "created_at": "2023-08-25T13:34:43.548Z",
+        "updated_at": "2023-08-25T23:10:30.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc54fc61-6647-46cc-816a-e0d5844cfc3e",
+        "name": "Mystery and Thrillers",
+        "is_public": true,
+        "created_at": "2023-08-25T06:33:07.334Z",
+        "updated_at": "2023-08-26T04:55:03.083Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "802040d4-9df1-4cd5-83a1-c08ea2da0485",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T23:10:15.682Z",
+        "isbn": "9780141182636",
+        "genre": "Literary Fiction",
+        "created_at": "2023-08-26T06:07:01.922Z",
+        "updated_at": "2023-08-25T14:55:22.472Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "4eb6db1b-2ee2-4894-a17e-f31003d8865a",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-26T01:04:34.730Z",
+        "isbn": "9780061120084",
+        "genre": "Young Adult",
+        "created_at": "2023-08-25T12:21:00.686Z",
+        "updated_at": "2023-08-25T17:52:37.308Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "fa32e89e-68e5-4e8c-800f-7f1835bb97e9",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-25T22:49:57.141Z",
+        "isbn": "9780141439518",
+        "genre": "Romance",
+        "created_at": "2023-08-25T10:16:54.174Z",
+        "updated_at": "2023-08-25T12:08:03.757Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "331672c4-933c-4f91-bc88-caa4009656ee",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T18:19:39.553Z",
+        "isbn": "9780590353427",
+        "genre": "Fantasy",
+        "created_at": "2023-08-25T06:56:30.231Z",
+        "updated_at": "2023-08-26T06:15:17.166Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "9bed6189-55d3-4253-99e3-19d9d0dcfe7c",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T10:41:07.720Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-26T03:13:16.552Z",
+        "updated_at": "2023-08-25T21:45:15.620Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "47182ddc-76d2-486b-97f6-929ce12799ef",
+        "content": "I loved this book!",
+        "rating": 26841,
+        "created_at": "2023-08-26T05:49:31.889Z",
+        "updated_at": "2023-08-26T04:52:48.695Z",
+        "book_id": "802040d4-9df1-4cd5-83a1-c08ea2da0485",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1cc57d9-d406-4b06-9975-b015a912371d",
+        "content": "Highly recommended",
+        "rating": 48467,
+        "created_at": "2023-08-25T22:29:47.241Z",
+        "updated_at": "2023-08-26T03:58:26.847Z",
+        "book_id": "802040d4-9df1-4cd5-83a1-c08ea2da0485",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e639ed6-c4d1-46d3-b510-c724367082b6",
+        "content": "A must-read for all book lovers",
+        "rating": 24112,
+        "created_at": "2023-08-25T06:34:49.991Z",
+        "updated_at": "2023-08-25T07:54:55.101Z",
+        "book_id": "802040d4-9df1-4cd5-83a1-c08ea2da0485",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02c3f2e5-782c-4dd9-b41d-87e3dd0b826b",
+        "content": "Captivating storyline",
+        "rating": 19255,
+        "created_at": "2023-08-25T07:20:25.405Z",
+        "updated_at": "2023-08-26T03:17:45.302Z",
+        "book_id": "fa32e89e-68e5-4e8c-800f-7f1835bb97e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "478379e3-a13c-4bd6-9e65-0ba40351f1d6",
+        "content": "Couldn't put it down",
+        "rating": 19306,
+        "created_at": "2023-08-25T19:36:15.869Z",
+        "updated_at": "2023-08-25T15:03:41.105Z",
+        "book_id": "fa32e89e-68e5-4e8c-800f-7f1835bb97e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "7251ba31-4eb4-4027-836d-45a879f26563",
+        "topic": "Favorite book characters",
+        "is_closed": false,
+        "created_at": "2023-08-26T05:23:23.050Z",
+        "updated_at": "2023-08-25T23:37:38.124Z",
+        "book_id": "802040d4-9df1-4cd5-83a1-c08ea2da0485",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "984bb1f7-6007-4951-8627-2fd82930abd4",
+        "topic": "Book recommendations",
+        "is_closed": true,
+        "created_at": "2023-08-25T19:15:09.533Z",
+        "updated_at": "2023-08-25T18:17:39.019Z",
+        "book_id": "fa32e89e-68e5-4e8c-800f-7f1835bb97e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "674b2470-ab20-4f95-9c6b-2bd1deb489e8",
+        "topic": "Plot twists",
+        "is_closed": true,
+        "created_at": "2023-08-26T05:03:02.004Z",
+        "updated_at": "2023-08-25T07:05:43.563Z",
+        "book_id": "9bed6189-55d3-4253-99e3-19d9d0dcfe7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56afc88f-0f87-4a2d-a96a-6098ba9435f5",
+        "topic": "Book-to-movie adaptations",
+        "is_closed": true,
+        "created_at": "2023-08-25T10:30:23.396Z",
+        "updated_at": "2023-08-25T14:28:27.317Z",
+        "book_id": "fa32e89e-68e5-4e8c-800f-7f1835bb97e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48767376-df83-4b8e-ad07-c44bd9565d67",
+        "topic": "Book clubs",
+        "is_closed": false,
+        "created_at": "2023-08-25T12:52:14.132Z",
+        "updated_at": "2023-08-26T03:49:16.818Z",
+        "book_id": "331672c4-933c-4f91-bc88-caa4009656ee",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a619e96b-dff3-4b69-8c93-82e14bafcdc5",
+        "email": "Tessie.Wunsch@hotmail.com",
+        "firstName": "Lupe",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40436821",
+        "tenantId": null
+      },
+      {
+        "reference": "5eb13cce-669f-4b18-a282-0c6dee403d23",
+        "email": "Elvis.Dooley@yahoo.com",
+        "firstName": "Kiley",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/293.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92083422-5afd-4191-9d83-6e4f2df9c9f7",
+        "email": "Polly69@hotmail.com",
+        "firstName": "Mohammed",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20909334",
+        "tenantId": null
+      },
+      {
+        "reference": "e5cddd04-c0b6-44aa-b564-3a3c5133faf3",
+        "email": "Adam85@hotmail.com",
+        "firstName": "Wiley",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89811944",
+        "tenantId": null
+      },
+      {
+        "reference": "27296eeb-ce5d-4eef-b6d7-4ee035bb02b5",
+        "email": "Dorian.Carter62@yahoo.com",
+        "firstName": "Adam",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/606.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "6fc5d3d0-e4ea-4e90-a4b9-9163fb5c48df",
+        "name": "Classic Novels",
+        "is_public": false,
+        "created_at": "2023-08-26T00:55:54.332Z",
+        "updated_at": "2023-08-25T11:33:09.389Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c64e3f66-de9e-4a60-a7d6-4a627b452001",
+        "name": "Science Fiction",
+        "is_public": true,
+        "created_at": "2023-08-26T03:18:19.127Z",
+        "updated_at": "2023-08-26T06:15:59.757Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "266ce3d3-2705-4e2b-b51f-daa74e112cf1",
+        "name": "Mystery & Thriller",
+        "is_public": false,
+        "created_at": "2023-08-25T23:38:49.140Z",
+        "updated_at": "2023-08-26T06:12:32.346Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6606e8ae-f298-4d7d-9411-8c9523ae8626",
+        "name": "Young Adult",
+        "is_public": false,
+        "created_at": "2023-08-26T01:08:13.134Z",
+        "updated_at": "2023-08-25T17:44:01.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "007a40dc-d44b-4155-b2bc-63206807d53f",
+        "name": "Biographies",
+        "is_public": false,
+        "created_at": "2023-08-25T19:41:42.537Z",
+        "updated_at": "2023-08-26T02:41:59.875Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "4c22e4c3-6276-42f8-baf3-67b0dd01c954",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T07:17:13.522Z",
+        "isbn": "9780743273565",
+        "genre": "Literary Fiction",
+        "created_at": "2023-08-26T00:12:32.329Z",
+        "updated_at": "2023-08-26T00:59:46.842Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "0dfec40b-0013-4a65-b973-849d52642395",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-26T05:26:21.421Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T16:20:51.650Z",
+        "updated_at": "2023-08-25T10:48:39.101Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "824e431c-f449-4fd1-8b8c-d9dc9d785f23",
+        "title": "Gone Girl",
+        "author": "Gillian Flynn",
+        "published_date": "2023-08-25T16:53:52.451Z",
+        "isbn": "9780307588364",
+        "genre": "Psychological Thriller",
+        "created_at": "2023-08-26T01:56:57.527Z",
+        "updated_at": "2023-08-26T02:36:59.056Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "541667d2-76fb-42e2-916f-eda6c8cb7754",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T21:16:27.264Z",
+        "isbn": "9780439554930",
+        "genre": "Fantasy",
+        "created_at": "2023-08-25T12:18:37.851Z",
+        "updated_at": "2023-08-26T02:49:18.464Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "ca34cbcd-2de7-434a-bfab-91e17192e4bc",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-25T07:37:55.467Z",
+        "isbn": "9780060935467",
+        "genre": "Coming-of-age",
+        "created_at": "2023-08-26T06:17:28.787Z",
+        "updated_at": "2023-08-26T01:41:05.666Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "2aa002e4-75c0-409c-be9e-bb5310d3dd9e",
+        "content": "A captivating story with rich characters",
+        "rating": 92133,
+        "created_at": "2023-08-25T13:59:13.856Z",
+        "updated_at": "2023-08-25T22:08:52.964Z",
+        "book_id": "0dfec40b-0013-4a65-b973-849d52642395",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3584145a-fa33-464f-9bf2-e74692c35c1e",
+        "content": "An intriguing plot that keeps you guessing till the end",
+        "rating": 33444,
+        "created_at": "2023-08-25T18:33:12.605Z",
+        "updated_at": "2023-08-25T19:03:37.652Z",
+        "book_id": "541667d2-76fb-42e2-916f-eda6c8cb7754",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94e7b989-9fe6-4781-89e3-5af9243b18a8",
+        "content": "Well-written and thought-provoking",
+        "rating": 46541,
+        "created_at": "2023-08-26T02:01:54.197Z",
+        "updated_at": "2023-08-25T17:52:57.097Z",
+        "book_id": "824e431c-f449-4fd1-8b8c-d9dc9d785f23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c03b99bf-f42b-418a-b2ce-032e05f7ad70",
+        "content": "Highly recommended for fans of the genre",
+        "rating": 87462,
+        "created_at": "2023-08-25T08:57:22.722Z",
+        "updated_at": "2023-08-25T14:51:28.482Z",
+        "book_id": "4c22e4c3-6276-42f8-baf3-67b0dd01c954",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "765f3e76-5df8-46e4-9faa-4de74afe3ee9",
+        "content": "A must-read for book lovers",
+        "rating": 86398,
+        "created_at": "2023-08-25T19:30:40.810Z",
+        "updated_at": "2023-08-26T06:12:44.433Z",
+        "book_id": "0dfec40b-0013-4a65-b973-849d52642395",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "5c3aa24c-5a92-48ec-8075-d3e2f8f0116f",
+        "topic": "Favorite book of all time",
+        "is_closed": true,
+        "created_at": "2023-08-25T22:20:35.840Z",
+        "updated_at": "2023-08-25T06:26:50.911Z",
+        "book_id": "824e431c-f449-4fd1-8b8c-d9dc9d785f23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca07ddb9-3c55-41ec-ad65-969673dcf80f",
+        "topic": "Book recommendations for summer",
+        "is_closed": false,
+        "created_at": "2023-08-26T00:12:17.720Z",
+        "updated_at": "2023-08-25T21:29:16.651Z",
+        "book_id": "824e431c-f449-4fd1-8b8c-d9dc9d785f23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56bb22c7-5df1-458b-931f-af4b26c0e0b9",
+        "topic": "Analysis of symbolism in literature",
+        "is_closed": true,
+        "created_at": "2023-08-25T11:30:36.219Z",
+        "updated_at": "2023-08-25T22:54:56.500Z",
+        "book_id": "824e431c-f449-4fd1-8b8c-d9dc9d785f23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9b027da-93b6-4987-b635-ec4aa58492b3",
+        "topic": "Book-to-movie adaptations",
+        "is_closed": true,
+        "created_at": "2023-08-25T16:04:24.769Z",
+        "updated_at": "2023-08-25T13:55:32.638Z",
+        "book_id": "824e431c-f449-4fd1-8b8c-d9dc9d785f23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52de571e-d473-4277-b220-2b0b3defb6bc",
+        "topic": "Impact of technology on reading habits",
+        "is_closed": false,
+        "created_at": "2023-08-26T02:11:41.718Z",
+        "updated_at": "2023-08-25T11:57:51.706Z",
+        "book_id": "0dfec40b-0013-4a65-b973-849d52642395",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4943dbed-36b9-4787-898d-c64669118464",
+        "email": "John41@yahoo.com",
+        "firstName": "Evert",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/587.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3475b28b-a4dc-435c-8f06-b4e94a3785ec",
+        "email": "Francisco.Wiza@yahoo.com",
+        "firstName": "Jaqueline",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11284001",
+        "tenantId": null
+      },
+      {
+        "reference": "11e013ad-7b77-41b1-bd0e-2e61c176d939",
+        "email": "Hazle.McKenzie-Auer8@gmail.com",
+        "firstName": "Weldon",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bebf1654-2e4f-48f7-b05a-a623fa67303b",
+        "email": "Carol_Rice@yahoo.com",
+        "firstName": "Salvatore",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87642096",
+        "tenantId": null
+      },
+      {
+        "reference": "954450b9-da2c-41e0-9db4-828c3beb3363",
+        "email": "Carolanne_Gutkowski@yahoo.com",
+        "firstName": "Cleve",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84757938",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "4413c067-5efa-489d-a7d7-4b528f1337c1",
+        "name": "Classics",
+        "is_public": true,
+        "created_at": "2023-08-26T04:05:50.711Z",
+        "updated_at": "2023-08-25T11:50:04.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8de30a68-2e1f-40e0-bf91-99adeef14b1b",
+        "name": "Mystery",
+        "is_public": false,
+        "created_at": "2023-08-25T16:41:27.061Z",
+        "updated_at": "2023-08-25T15:15:17.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "480303d6-8e82-4962-8724-3f6ba3bd9de0",
+        "name": "Science Fiction",
+        "is_public": false,
+        "created_at": "2023-08-25T06:55:29.782Z",
+        "updated_at": "2023-08-25T07:41:28.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77731cc5-dbb8-4a30-ba88-ac91ded00aee",
+        "name": "Romance",
+        "is_public": false,
+        "created_at": "2023-08-25T08:26:37.648Z",
+        "updated_at": "2023-08-25T06:33:11.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "005ab67a-87c5-4174-b473-e64fe08ec30e",
+        "name": "Thriller",
+        "is_public": false,
+        "created_at": "2023-08-25T14:34:19.341Z",
+        "updated_at": "2023-08-25T21:49:36.340Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "1515ae4a-6c70-4181-b8b0-944d5c71f86b",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-25T13:45:45.770Z",
+        "isbn": "9780061120084",
+        "genre": "Fiction",
+        "created_at": "2023-08-25T07:37:41.853Z",
+        "updated_at": "2023-08-25T18:43:43.654Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "da5a4768-e79e-4a6d-b41b-cac7d04201b5",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T22:18:54.207Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T13:38:34.288Z",
+        "updated_at": "2023-08-26T05:22:19.755Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "ca8b08aa-0be4-4a03-9261-c7a92a3dbb02",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-26T01:07:18.116Z",
+        "isbn": "9780141439563",
+        "genre": "Romance",
+        "created_at": "2023-08-26T01:50:48.322Z",
+        "updated_at": "2023-08-25T18:13:09.538Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "d31bcbb8-ecf6-4d4e-8a32-255bf9d5b424",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T14:18:35.215Z",
+        "isbn": "9780743273565",
+        "genre": "Classic",
+        "created_at": "2023-08-25T20:18:44.717Z",
+        "updated_at": "2023-08-25T16:52:52.777Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "838b8eef-440d-4e33-949b-498caca864ee",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T10:24:38.598Z",
+        "isbn": "9780590353427",
+        "genre": "Fantasy",
+        "created_at": "2023-08-26T01:29:48.945Z",
+        "updated_at": "2023-08-25T10:38:50.568Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "7b354732-1989-4854-a63a-752734540d3b",
+        "content": "A must-read!",
+        "rating": 20807,
+        "created_at": "2023-08-26T03:33:55.540Z",
+        "updated_at": "2023-08-25T16:23:44.741Z",
+        "book_id": "d31bcbb8-ecf6-4d4e-8a32-255bf9d5b424",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "575f8ec4-824e-4f76-a09a-ba7a3cf0f91f",
+        "content": "Couldn't put it down",
+        "rating": 35821,
+        "created_at": "2023-08-25T16:01:24.579Z",
+        "updated_at": "2023-08-25T23:11:05.182Z",
+        "book_id": "da5a4768-e79e-4a6d-b41b-cac7d04201b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e01d6f3-def2-45d7-a654-90b6f2af83dd",
+        "content": "Highly recommended",
+        "rating": 65264,
+        "created_at": "2023-08-25T11:58:10.257Z",
+        "updated_at": "2023-08-25T14:51:54.483Z",
+        "book_id": "da5a4768-e79e-4a6d-b41b-cac7d04201b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a64217d-567a-4413-b8ae-82ae3ab13e0f",
+        "content": "Captivating storyline",
+        "rating": 69854,
+        "created_at": "2023-08-25T14:28:32.817Z",
+        "updated_at": "2023-08-26T05:05:48.337Z",
+        "book_id": "1515ae4a-6c70-4181-b8b0-944d5c71f86b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b6534a6-29e8-4c6b-9778-315300866c4d",
+        "content": "Well-written and engaging",
+        "rating": 78656,
+        "created_at": "2023-08-25T12:21:17.945Z",
+        "updated_at": "2023-08-25T10:39:47.448Z",
+        "book_id": "d31bcbb8-ecf6-4d4e-8a32-255bf9d5b424",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "800279f7-4b62-4666-b766-2f8162f40bb8",
+        "topic": "Favorite characters",
+        "is_closed": true,
+        "created_at": "2023-08-25T22:22:47.751Z",
+        "updated_at": "2023-08-25T10:23:19.578Z",
+        "book_id": "1515ae4a-6c70-4181-b8b0-944d5c71f86b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d11c28d-b5a6-42cd-ac10-3c29e7dc6258",
+        "topic": "Plot twists",
+        "is_closed": true,
+        "created_at": "2023-08-26T06:18:22.833Z",
+        "updated_at": "2023-08-26T01:43:27.505Z",
+        "book_id": "ca8b08aa-0be4-4a03-9261-c7a92a3dbb02",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a09f95c7-bb35-43ee-9ad6-bb3392398e40",
+        "topic": "Book recommendations",
+        "is_closed": true,
+        "created_at": "2023-08-26T05:26:59.140Z",
+        "updated_at": "2023-08-25T20:38:07.809Z",
+        "book_id": "ca8b08aa-0be4-4a03-9261-c7a92a3dbb02",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9be1bfd2-eadc-4f2d-bc07-b3992134025f",
+        "topic": "Thought-provoking themes",
+        "is_closed": true,
+        "created_at": "2023-08-26T04:44:49.544Z",
+        "updated_at": "2023-08-25T21:35:46.556Z",
+        "book_id": "da5a4768-e79e-4a6d-b41b-cac7d04201b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c942160d-6820-424f-a6b2-56826e2419d7",
+        "topic": "Author's writing style",
+        "is_closed": false,
+        "created_at": "2023-08-26T01:54:54.367Z",
+        "updated_at": "2023-08-25T17:08:35.318Z",
+        "book_id": "da5a4768-e79e-4a6d-b41b-cac7d04201b5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "76d73f3c-6932-42a1-8bb7-cc75b99a1a3f",
+        "email": "Dedrick.Abernathy86@gmail.com",
+        "firstName": "Dorothea",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7188877",
+        "tenantId": null
+      },
+      {
+        "reference": "003d8ec1-c99d-49d2-a9ed-1e002a6672bb",
+        "email": "Madyson86@gmail.com",
+        "firstName": "Zane",
+        "lastName": "Witting-Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/691.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d84c2d99-6e54-4a1d-9a57-844372898ee2",
+        "email": "Kennedi96@yahoo.com",
+        "firstName": "Milo",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61384246",
+        "tenantId": null
+      },
+      {
+        "reference": "2a469191-4a59-42e3-ba71-8d5184faa5da",
+        "email": "Arvilla56@hotmail.com",
+        "firstName": "Keshawn",
+        "lastName": "Johns-Bechtelar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/835.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dc2f041-d1d3-4bf1-94f5-a66daf8c714c",
+        "email": "Bernie_Stokes@yahoo.com",
+        "firstName": "Santina",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94148261",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "c28bbf27-dcc1-4ca9-b494-6c5efaec618e",
+        "name": "Classics",
+        "is_public": false,
+        "created_at": "2023-08-26T06:03:40.229Z",
+        "updated_at": "2023-08-25T09:30:58.565Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea36e8f7-7dee-413d-8598-9ba6e62cbaff",
+        "name": "Mystery",
+        "is_public": false,
+        "created_at": "2023-08-25T08:30:42.871Z",
+        "updated_at": "2023-08-26T02:32:48.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1da0725-788c-49b4-9c64-b8563913852e",
+        "name": "Science Fiction",
+        "is_public": true,
+        "created_at": "2023-08-25T20:34:53.108Z",
+        "updated_at": "2023-08-26T03:19:42.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8ffd6ca-edfe-4e1d-96b4-79e9b6f7ad4f",
+        "name": "Romance",
+        "is_public": false,
+        "created_at": "2023-08-25T17:49:18.665Z",
+        "updated_at": "2023-08-25T20:16:09.460Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14ac4ece-d579-4c37-a8b1-e0ddfe87572d",
+        "name": "Thriller",
+        "is_public": true,
+        "created_at": "2023-08-25T17:07:30.408Z",
+        "updated_at": "2023-08-25T19:56:36.948Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "84e07943-5906-483a-a3c0-be697acd9029",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T23:31:17.295Z",
+        "isbn": "9780142437230",
+        "genre": "Fiction",
+        "created_at": "2023-08-26T06:18:14.162Z",
+        "updated_at": "2023-08-26T01:14:01.250Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "126ee17f-3b1a-4367-aae8-ed4be0a92b76",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-26T00:20:21.098Z",
+        "isbn": "9780060935467",
+        "genre": "Mystery",
+        "created_at": "2023-08-26T02:10:21.102Z",
+        "updated_at": "2023-08-25T23:17:21.218Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "89df735f-1a7c-40ac-b884-b61d3ee3ed61",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-25T07:30:56.819Z",
+        "isbn": "9780141439518",
+        "genre": "Romance",
+        "created_at": "2023-08-25T17:17:57.099Z",
+        "updated_at": "2023-08-25T16:24:26.948Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "0919ba58-677c-48b7-915f-bb094dda9b26",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T07:36:26.147Z",
+        "isbn": "9780451524935",
+        "genre": "Science Fiction",
+        "created_at": "2023-08-25T15:45:20.673Z",
+        "updated_at": "2023-08-26T01:48:46.355Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "fd5d1930-a50e-4d7e-9b0a-ea30044b66cc",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T13:03:37.682Z",
+        "isbn": "9780590353427",
+        "genre": "Fantasy",
+        "created_at": "2023-08-25T06:59:02.390Z",
+        "updated_at": "2023-08-26T05:40:02.886Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "5946e123-5d4b-4847-af99-ce15f8daaa0d",
+        "content": "I loved this book!",
+        "rating": 5673,
+        "created_at": "2023-08-25T09:20:44.994Z",
+        "updated_at": "2023-08-25T19:30:38.361Z",
+        "book_id": "126ee17f-3b1a-4367-aae8-ed4be0a92b76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba3dbe42-0b2d-4da6-b618-f07260c480be",
+        "content": "Highly recommended!",
+        "rating": 11038,
+        "created_at": "2023-08-25T21:04:59.129Z",
+        "updated_at": "2023-08-26T01:01:38.720Z",
+        "book_id": "fd5d1930-a50e-4d7e-9b0a-ea30044b66cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "460c234b-9182-4938-afe6-2f91bf43b06e",
+        "content": "Couldn't put it down!",
+        "rating": 8120,
+        "created_at": "2023-08-25T09:03:54.520Z",
+        "updated_at": "2023-08-26T01:37:55.853Z",
+        "book_id": "126ee17f-3b1a-4367-aae8-ed4be0a92b76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c89c438-08c4-4815-b807-436789c6d6e6",
+        "content": "A must-read for all book lovers!",
+        "rating": 57828,
+        "created_at": "2023-08-25T08:35:37.749Z",
+        "updated_at": "2023-08-25T23:16:45.848Z",
+        "book_id": "fd5d1930-a50e-4d7e-9b0a-ea30044b66cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e5333e5-acdc-4f15-8fba-db539e82f331",
+        "content": "Engaging and thought-provoking",
+        "rating": 35129,
+        "created_at": "2023-08-25T18:01:04.351Z",
+        "updated_at": "2023-08-25T13:20:13.668Z",
+        "book_id": "126ee17f-3b1a-4367-aae8-ed4be0a92b76",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "fbc17d35-d8e8-45b2-97fd-6a70bfc6fea5",
+        "topic": "Favorite characters",
+        "is_closed": false,
+        "created_at": "2023-08-25T22:06:34.042Z",
+        "updated_at": "2023-08-25T06:25:58.098Z",
+        "book_id": "0919ba58-677c-48b7-915f-bb094dda9b26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "708b4cac-b430-4f88-baa4-8c5c0b691cb2",
+        "topic": "Plot twists",
+        "is_closed": false,
+        "created_at": "2023-08-25T17:38:25.029Z",
+        "updated_at": "2023-08-25T12:45:05.230Z",
+        "book_id": "0919ba58-677c-48b7-915f-bb094dda9b26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3f5055c-27f5-4c5f-8614-b219c33e4419",
+        "topic": "Book recommendations",
+        "is_closed": true,
+        "created_at": "2023-08-25T16:39:00.615Z",
+        "updated_at": "2023-08-26T06:18:33.520Z",
+        "book_id": "0919ba58-677c-48b7-915f-bb094dda9b26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a864effc-03e7-4d7a-8a22-56163c08fcea",
+        "topic": "Author analysis",
+        "is_closed": true,
+        "created_at": "2023-08-25T19:04:31.176Z",
+        "updated_at": "2023-08-26T03:17:38.591Z",
+        "book_id": "89df735f-1a7c-40ac-b884-b61d3ee3ed61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8f416b8-8446-47ba-ae01-b484a63eae64",
+        "topic": "Book-to-movie adaptations",
+        "is_closed": true,
+        "created_at": "2023-08-25T21:49:07.288Z",
+        "updated_at": "2023-08-25T12:55:25.296Z",
+        "book_id": "89df735f-1a7c-40ac-b884-b61d3ee3ed61",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8e3d4697-094b-48f7-b2e7-8f7ca26f1228",
+        "email": "Neva.Labadie@hotmail.com",
+        "firstName": "Marques",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24881643",
+        "tenantId": null
+      },
+      {
+        "reference": "6aad58a0-d7d8-4c0f-9960-85d0bc3753ef",
+        "email": "Peter21@gmail.com",
+        "firstName": "Marlin",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf6bb7f3-a35d-4fa4-b8be-da82cd8ad2f9",
+        "email": "Maida98@yahoo.com",
+        "firstName": "Bernardo",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14575962",
+        "tenantId": null
+      },
+      {
+        "reference": "158f63a3-34c5-47b0-ae73-2061e6dcb08d",
+        "email": "Oswaldo.Hackett51@gmail.com",
+        "firstName": "Rowland",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/469.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "437de873-7c7a-4fd7-8cc7-b74abb605f07",
+        "email": "Arne_Turcotte35@hotmail.com",
+        "firstName": "Blair",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49360016",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "84d8caaf-3cbd-44a9-ab40-c9f27e5824ec",
+        "name": "Classic Novels",
+        "is_public": true,
+        "created_at": "2023-08-25T12:33:54.385Z",
+        "updated_at": "2023-08-26T02:00:23.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f69e3b25-d432-49a7-a305-53e07fc8f632",
+        "name": "Science Fiction",
+        "is_public": false,
+        "created_at": "2023-08-25T14:10:11.078Z",
+        "updated_at": "2023-08-25T09:26:55.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54d175f0-58e2-41af-b2bb-b292dcd7df8d",
+        "name": "Biographies",
+        "is_public": true,
+        "created_at": "2023-08-25T16:56:59.814Z",
+        "updated_at": "2023-08-25T08:07:13.149Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d7eaa9b-6713-4746-9996-4ee0cc10eb5c",
+        "name": "Mystery & Suspense",
+        "is_public": true,
+        "created_at": "2023-08-25T14:49:16.074Z",
+        "updated_at": "2023-08-25T10:33:04.721Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8857091-df7f-495d-b8d4-d5d4b34139e4",
+        "name": "Fantasy",
+        "is_public": true,
+        "created_at": "2023-08-26T04:01:02.383Z",
+        "updated_at": "2023-08-25T22:01:05.634Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "93ee6fc1-a4d8-4080-b450-0ae6e8d6dabf",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T11:21:04.607Z",
+        "isbn": "9780142407332",
+        "genre": "Literary Fiction",
+        "created_at": "2023-08-25T11:08:42.209Z",
+        "updated_at": "2023-08-25T18:51:11.961Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "f45adae8-01a5-43eb-8f42-57a02fc5d789",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-26T03:07:58.131Z",
+        "isbn": "9780061120084",
+        "genre": "Classic",
+        "created_at": "2023-08-25T19:11:12.189Z",
+        "updated_at": "2023-08-25T08:35:00.157Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "1fde2efd-5715-4d53-b330-8d9345483c3d",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T20:31:05.899Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T17:52:10.890Z",
+        "updated_at": "2023-08-26T03:00:57.057Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "8389a66b-4c8d-4be1-8dd0-9f8d83ce366b",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-25T08:25:04.432Z",
+        "isbn": "9780141439563",
+        "genre": "Romance",
+        "created_at": "2023-08-25T15:55:27.620Z",
+        "updated_at": "2023-08-25T19:29:49.589Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "7bd63bd9-c9ba-4d54-bca6-1c04287af742",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T18:37:38.815Z",
+        "isbn": "9780590353427",
+        "genre": "Fantasy",
+        "created_at": "2023-08-26T03:33:30.045Z",
+        "updated_at": "2023-08-25T20:45:49.816Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "3330f550-5b65-48a9-ac8d-da12548a3cea",
+        "content": "A captivating story with memorable characters.",
+        "rating": 42610,
+        "created_at": "2023-08-25T10:36:36.475Z",
+        "updated_at": "2023-08-26T00:08:10.552Z",
+        "book_id": "7bd63bd9-c9ba-4d54-bca6-1c04287af742",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "578c0ccb-1add-4533-a4c8-68c9139af7d2",
+        "content": "An insightful and thought-provoking read.",
+        "rating": 53064,
+        "created_at": "2023-08-25T08:38:13.470Z",
+        "updated_at": "2023-08-25T11:41:44.037Z",
+        "book_id": "8389a66b-4c8d-4be1-8dd0-9f8d83ce366b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "403075b4-abea-45ab-88b6-d2a8a31dad76",
+        "content": "I couldn't put this book down!",
+        "rating": 17835,
+        "created_at": "2023-08-26T02:32:42.589Z",
+        "updated_at": "2023-08-25T06:28:02.517Z",
+        "book_id": "7bd63bd9-c9ba-4d54-bca6-1c04287af742",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "947fe98c-4034-4d44-bf72-0b5ca4eda998",
+        "content": "Highly recommended for all book lovers.",
+        "rating": 4382,
+        "created_at": "2023-08-25T23:57:10.932Z",
+        "updated_at": "2023-08-25T21:55:23.247Z",
+        "book_id": "1fde2efd-5715-4d53-b330-8d9345483c3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "186ccd2d-498a-4d8c-b745-fa46add629da",
+        "content": "A must-read for fans of the genre.",
+        "rating": 12425,
+        "created_at": "2023-08-25T14:02:16.862Z",
+        "updated_at": "2023-08-25T07:16:30.429Z",
+        "book_id": "1fde2efd-5715-4d53-b330-8d9345483c3d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "d2dfee88-a36f-4ca2-b420-fc0983ed549e",
+        "topic": "Favorite book of all time?",
+        "is_closed": false,
+        "created_at": "2023-08-25T12:15:36.968Z",
+        "updated_at": "2023-08-26T02:27:26.834Z",
+        "book_id": "8389a66b-4c8d-4be1-8dd0-9f8d83ce366b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ded72a2-4565-4186-a922-2e3eb5d3cec5",
+        "topic": "Book recommendations for summer reading?",
+        "is_closed": false,
+        "created_at": "2023-08-26T02:49:32.661Z",
+        "updated_at": "2023-08-25T14:00:40.842Z",
+        "book_id": "8389a66b-4c8d-4be1-8dd0-9f8d83ce366b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9174684b-33e1-4113-b586-fc67b36def1c",
+        "topic": "Thoughts on the ending of the latest bestseller?",
+        "is_closed": false,
+        "created_at": "2023-08-26T06:01:50.918Z",
+        "updated_at": "2023-08-25T20:30:50.225Z",
+        "book_id": "93ee6fc1-a4d8-4080-b450-0ae6e8d6dabf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83982cc9-76ca-4d11-98c6-28697b3bb230",
+        "topic": "Character analysis of the protagonist.",
+        "is_closed": true,
+        "created_at": "2023-08-25T22:58:40.510Z",
+        "updated_at": "2023-08-25T15:25:12.055Z",
+        "book_id": "7bd63bd9-c9ba-4d54-bca6-1c04287af742",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0da63b1a-6e3f-427c-aed4-6b145299025d",
+        "topic": "Predictions for the next book in the series?",
+        "is_closed": false,
+        "created_at": "2023-08-26T05:29:50.550Z",
+        "updated_at": "2023-08-25T11:04:13.079Z",
+        "book_id": "1fde2efd-5715-4d53-b330-8d9345483c3d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7dcccaf7-4413-43d1-81aa-61d1f0512612",
+        "email": "Ola.Braun53@hotmail.com",
+        "firstName": "Montana",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/111.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ec3d8f9-fcd0-4ca8-a086-fb027fdedd0f",
+        "email": "Lorena1@gmail.com",
+        "firstName": "Talon",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/754.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb4a0319-cd7d-4dbd-bf82-b30a25913473",
+        "email": "Cruz.Greenfelder74@hotmail.com",
+        "firstName": "Tod",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48629053",
+        "tenantId": null
+      },
+      {
+        "reference": "175ece48-ecdb-4e15-99fe-dffcd05f9443",
+        "email": "Gordon95@gmail.com",
+        "firstName": "Elody",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1157.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1c9b22b-e1b2-4c2f-8f08-e72e6099dd5a",
+        "email": "Jeremy59@gmail.com",
+        "firstName": "Colten",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "c1f0dc27-9973-401d-8942-f330b2afbdd3",
+        "name": "Classics",
+        "is_public": false,
+        "created_at": "2023-08-26T03:23:47.967Z",
+        "updated_at": "2023-08-25T20:28:34.038Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f564b8c6-f666-46db-87d3-160a5abc4646",
+        "name": "Mystery",
+        "is_public": true,
+        "created_at": "2023-08-25T13:31:31.472Z",
+        "updated_at": "2023-08-26T00:39:20.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60ec1a67-a41b-4fc1-99d4-3b42d8be8935",
+        "name": "Science Fiction",
+        "is_public": true,
+        "created_at": "2023-08-26T01:15:26.985Z",
+        "updated_at": "2023-08-25T23:25:23.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96e31f18-f7d1-4878-9b9e-5497d5fd009d",
+        "name": "Romance",
+        "is_public": true,
+        "created_at": "2023-08-25T23:49:41.001Z",
+        "updated_at": "2023-08-25T21:43:59.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b435bdc0-e426-48f1-a374-1adc81be41c8",
+        "name": "Thriller",
+        "is_public": true,
+        "created_at": "2023-08-25T07:48:11.228Z",
+        "updated_at": "2023-08-25T10:24:09.454Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "0d188c9a-a474-4cae-8a73-c0a1fbf88514",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T17:56:27.809Z",
+        "isbn": "9780142407332",
+        "genre": "Literary Fiction",
+        "created_at": "2023-08-25T18:12:50.584Z",
+        "updated_at": "2023-08-25T13:45:12.933Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "2f3a6ad9-60d4-4ffd-9c81-27f10711468c",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-25T14:42:00.383Z",
+        "isbn": "9780060935467",
+        "genre": "Classic",
+        "created_at": "2023-08-25T09:03:08.208Z",
+        "updated_at": "2023-08-25T21:22:24.078Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "bf301f26-9f49-48ec-ba08-6e6fe7897398",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-25T15:41:18.008Z",
+        "isbn": "9780451524935",
+        "genre": "Dystopian",
+        "created_at": "2023-08-25T17:43:38.219Z",
+        "updated_at": "2023-08-26T01:16:26.343Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "85b4e6cc-ef68-49d2-bb26-d39064cd734c",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-25T11:37:45.379Z",
+        "isbn": "9780141439518",
+        "genre": "Romance",
+        "created_at": "2023-08-25T06:35:25.633Z",
+        "updated_at": "2023-08-25T18:09:55.643Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "49f39ecb-7bf7-438a-b808-a167d3a79161",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-25T06:52:26.561Z",
+        "isbn": "9780590353427",
+        "genre": "Fantasy",
+        "created_at": "2023-08-25T21:24:08.335Z",
+        "updated_at": "2023-08-25T15:52:01.056Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "39cfa14f-5fc5-489a-b17a-c0eba6d32752",
+        "content": "This book was amazing!",
+        "rating": 95116,
+        "created_at": "2023-08-25T21:40:04.811Z",
+        "updated_at": "2023-08-26T04:41:31.199Z",
+        "book_id": "49f39ecb-7bf7-438a-b808-a167d3a79161",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54fe6135-1458-4617-971a-2d7cbe2c79e7",
+        "content": "Highly recommend this read",
+        "rating": 57063,
+        "created_at": "2023-08-25T07:45:28.765Z",
+        "updated_at": "2023-08-26T01:44:01.594Z",
+        "book_id": "bf301f26-9f49-48ec-ba08-6e6fe7897398",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba92f9c1-eabc-43eb-8ce0-7a7d2a888d6a",
+        "content": "The plot kept me hooked till the end",
+        "rating": 23879,
+        "created_at": "2023-08-26T01:17:13.717Z",
+        "updated_at": "2023-08-25T10:18:37.605Z",
+        "book_id": "0d188c9a-a474-4cae-8a73-c0a1fbf88514",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34b82666-26bf-40d8-9246-6fec368a2233",
+        "content": "Beautifully written",
+        "rating": 90411,
+        "created_at": "2023-08-25T15:37:16.318Z",
+        "updated_at": "2023-08-26T03:40:58.282Z",
+        "book_id": "bf301f26-9f49-48ec-ba08-6e6fe7897398",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13ebf9ec-a6cd-4ee0-b464-764aeea8cabe",
+        "content": "A must-read for all book lovers",
+        "rating": 83911,
+        "created_at": "2023-08-25T11:23:05.140Z",
+        "updated_at": "2023-08-26T04:03:10.010Z",
+        "book_id": "2f3a6ad9-60d4-4ffd-9c81-27f10711468c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "5a14cb87-6fc2-4ca5-89d8-6198e052f9ca",
+        "topic": "Favorite book characters",
+        "is_closed": true,
+        "created_at": "2023-08-25T06:49:15.857Z",
+        "updated_at": "2023-08-26T05:47:42.114Z",
+        "book_id": "0d188c9a-a474-4cae-8a73-c0a1fbf88514",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8df9f916-2e8d-4711-8680-cbc11275f597",
+        "topic": "Book recommendations",
+        "is_closed": false,
+        "created_at": "2023-08-25T22:24:08.081Z",
+        "updated_at": "2023-08-25T10:48:04.268Z",
+        "book_id": "0d188c9a-a474-4cae-8a73-c0a1fbf88514",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec4abe83-5e19-40e2-9be5-5f089e7df37b",
+        "topic": "Book-to-movie adaptations",
+        "is_closed": false,
+        "created_at": "2023-08-26T04:21:47.239Z",
+        "updated_at": "2023-08-25T12:17:50.956Z",
+        "book_id": "0d188c9a-a474-4cae-8a73-c0a1fbf88514",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9830d6d-d7d9-4336-b5fd-fdba15350069",
+        "topic": "Book club discussions",
+        "is_closed": false,
+        "created_at": "2023-08-26T05:39:07.201Z",
+        "updated_at": "2023-08-25T13:38:44.222Z",
+        "book_id": "bf301f26-9f49-48ec-ba08-6e6fe7897398",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc2db68d-7002-4327-a758-c354f14723ad",
+        "topic": "Favorite book quotes",
+        "is_closed": false,
+        "created_at": "2023-08-26T05:34:06.331Z",
+        "updated_at": "2023-08-26T00:01:34.366Z",
+        "book_id": "2f3a6ad9-60d4-4ffd-9c81-27f10711468c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "023b267c-3974-46ef-8b83-d37f91fb4722",
+        "email": "Eveline_Ruecker82@hotmail.com",
+        "firstName": "Chanelle",
+        "lastName": "Pagac-Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51248366",
+        "tenantId": null
+      },
+      {
+        "reference": "47afb0c6-05aa-4cbd-ac71-0ee45cc2c519",
+        "email": "Brandy3@gmail.com",
+        "firstName": "Jana",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/691.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81cec808-2b78-4763-a00e-a1283a6e37a1",
+        "email": "Madge.Conn98@hotmail.com",
+        "firstName": "Hunter",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2788595",
+        "tenantId": null
+      },
+      {
+        "reference": "20992fc0-23dc-49f0-8fda-c93c6b99b4a3",
+        "email": "Helene_Quitzon@yahoo.com",
+        "firstName": "Angelo",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76720064",
+        "tenantId": null
+      },
+      {
+        "reference": "eed0edfd-75e7-4901-bdff-589e256595ad",
+        "email": "Chyna_Kozey@hotmail.com",
+        "firstName": "Jamaal",
+        "lastName": "Lowe-Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/146.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "collection": [
+      {
+        "id": "c0187103-41d7-45ba-a2c4-aeddfa9ed985",
+        "name": "Classics",
+        "is_public": true,
+        "created_at": "2023-08-26T00:13:43.923Z",
+        "updated_at": "2023-08-25T09:43:24.342Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fca3e64b-e1d3-4614-bfa5-5e9f2393cb9f",
+        "name": "Bestsellers",
+        "is_public": false,
+        "created_at": "2023-08-25T10:49:25.891Z",
+        "updated_at": "2023-08-25T20:08:52.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26c88dca-9cf8-4b86-b4df-302053b393a1",
+        "name": "Mystery",
+        "is_public": true,
+        "created_at": "2023-08-25T19:45:11.449Z",
+        "updated_at": "2023-08-25T09:45:11.633Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e764cb4c-e540-4e7e-9dab-bf37ee68b664",
+        "name": "Fantasy",
+        "is_public": true,
+        "created_at": "2023-08-26T01:51:53.431Z",
+        "updated_at": "2023-08-25T11:36:49.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1aa0004a-684b-4bee-9c82-ea4f4c93a06d",
+        "name": "Biographies",
+        "is_public": true,
+        "created_at": "2023-08-25T18:46:13.375Z",
+        "updated_at": "2023-08-25T10:29:02.872Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "3eda740e-4180-4980-b45e-8aeeecbfdd83",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_date": "2023-08-25T12:19:41.115Z",
+        "isbn": "9780141182636",
+        "genre": "Fiction",
+        "created_at": "2023-08-26T03:33:50.971Z",
+        "updated_at": "2023-08-25T14:27:45.483Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "55421d8f-9532-4ef3-b5df-5c4f32a17ad5",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_date": "2023-08-26T05:43:03.213Z",
+        "isbn": "9780061120084",
+        "genre": "Mystery",
+        "created_at": "2023-08-25T19:20:49.388Z",
+        "updated_at": "2023-08-25T23:33:54.298Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "1f0d29cd-bdee-4bab-bfeb-77b7a43ac99d",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_date": "2023-08-26T06:23:37.515Z",
+        "isbn": "9780141439518",
+        "genre": "Romance",
+        "created_at": "2023-08-25T15:43:01.232Z",
+        "updated_at": "2023-08-25T07:28:54.008Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "45af7e25-5cb4-4683-981b-0919258076bb",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_date": "2023-08-26T02:35:18.019Z",
+        "isbn": "9780439554930",
+        "genre": "Fantasy",
+        "created_at": "2023-08-25T17:51:00.204Z",
+        "updated_at": "2023-08-25T19:56:24.874Z",
+        "publisher_id": "main_entity_pk"
+      },
+      {
+        "id": "7b166232-0b1a-4e68-b2a7-2883b553d17a",
+        "title": "1984",
+        "author": "George Orwell",
+        "published_date": "2023-08-26T03:34:57.087Z",
+        "isbn": "9780451524935",
+        "genre": "Science Fiction",
+        "created_at": "2023-08-25T19:55:01.807Z",
+        "updated_at": "2023-08-25T06:25:46.567Z",
+        "publisher_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "73addac4-0436-4ceb-bbbc-06bc70589036",
+        "content": "I highly recommend this book!",
+        "rating": 34562,
+        "created_at": "2023-08-25T07:36:53.219Z",
+        "updated_at": "2023-08-25T06:40:43.371Z",
+        "book_id": "1f0d29cd-bdee-4bab-bfeb-77b7a43ac99d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbe4c12-f51d-4469-8cb6-3927027aa848",
+        "content": "A captivating read from start to finish",
+        "rating": 98166,
+        "created_at": "2023-08-25T18:42:12.494Z",
+        "updated_at": "2023-08-25T16:28:34.765Z",
+        "book_id": "45af7e25-5cb4-4683-981b-0919258076bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8541bc8-a042-421b-90a4-2bd5762b117d",
+        "content": "The characters are well-developed",
+        "rating": 29680,
+        "created_at": "2023-08-25T15:42:54.089Z",
+        "updated_at": "2023-08-25T21:24:30.300Z",
+        "book_id": "1f0d29cd-bdee-4bab-bfeb-77b7a43ac99d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58264c67-58ea-432d-9bb1-ac26e5c58f2d",
+        "content": "An intriguing plot with unexpected twists",
+        "rating": 54423,
+        "created_at": "2023-08-25T16:27:49.525Z",
+        "updated_at": "2023-08-25T13:02:12.787Z",
+        "book_id": "45af7e25-5cb4-4683-981b-0919258076bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69b63113-077a-4fdc-a11f-da19b2143613",
+        "content": "I couldn't put it down",
+        "rating": 96200,
+        "created_at": "2023-08-26T02:24:04.258Z",
+        "updated_at": "2023-08-25T11:14:24.483Z",
+        "book_id": "3eda740e-4180-4980-b45e-8aeeecbfdd83",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "discussion": [
+      {
+        "id": "83141fdd-c28a-40d5-842a-49548623a2ff",
+        "topic": "Favorite book of all time",
+        "is_closed": false,
+        "created_at": "2023-08-25T18:28:32.046Z",
+        "updated_at": "2023-08-25T08:59:01.846Z",
+        "book_id": "3eda740e-4180-4980-b45e-8aeeecbfdd83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0318c69-f4be-476e-88c1-8aef54426f51",
+        "topic": "Book recommendations",
+        "is_closed": false,
+        "created_at": "2023-08-25T16:25:13.507Z",
+        "updated_at": "2023-08-26T01:31:26.077Z",
+        "book_id": "1f0d29cd-bdee-4bab-bfeb-77b7a43ac99d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b21984a4-dd9c-4fdd-b95c-a3e0946445c9",
+        "topic": "Character analysis",
+        "is_closed": true,
+        "created_at": "2023-08-26T00:27:28.623Z",
+        "updated_at": "2023-08-26T00:54:24.449Z",
+        "book_id": "55421d8f-9532-4ef3-b5df-5c4f32a17ad5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6561910e-dca5-4efe-aecd-8565b56cfb18",
+        "topic": "Plot discussion",
+        "is_closed": false,
+        "created_at": "2023-08-26T05:38:25.654Z",
+        "updated_at": "2023-08-25T21:05:02.211Z",
+        "book_id": "55421d8f-9532-4ef3-b5df-5c4f32a17ad5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "695819b7-0df9-4b97-9c04-abdced5a06bd",
+        "topic": "Ending interpretation",
+        "is_closed": false,
+        "created_at": "2023-08-26T03:08:52.205Z",
+        "updated_at": "2023-08-26T02:16:41.968Z",
+        "book_id": "45af7e25-5cb4-4683-981b-0919258076bb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cba407cb-27ca-4d37-8213-449c8312b149",
+        "email": "Thad_Conroy92@yahoo.com",
+        "firstName": "Ciara",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25978127",
+        "tenantId": null
+      },
+      {
+        "reference": "87b9535a-1bbe-4e96-b104-06ceca70bf69",
+        "email": "Edwin.Mertz@gmail.com",
+        "firstName": "Alvena",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86720cc6-207b-4898-92ee-9d34c610501a",
+        "email": "Jaclyn96@gmail.com",
+        "firstName": "Marta",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46496824",
+        "tenantId": null
+      },
+      {
+        "reference": "949db65c-1116-4a81-b9fd-33377feb14c0",
+        "email": "Shakira_Frami55@hotmail.com",
+        "firstName": "Jolie",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29507775",
+        "tenantId": null
+      },
+      {
+        "reference": "22148b22-91a7-4ee9-8d81-47d4567f22d5",
+        "email": "Emilia79@yahoo.com",
+        "firstName": "Stephen",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46384026",
+        "tenantId": null
+      }
+    ]
+  }
+]
